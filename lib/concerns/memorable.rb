@@ -4,6 +4,7 @@ module Memorable
   end
 
   module ClassMethods
+    @@artists = []
 
     def count
       @@artists.count
