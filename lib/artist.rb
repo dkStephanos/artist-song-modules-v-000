@@ -4,7 +4,7 @@ require_relative '../config/environment'
 class Artist
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
-  
+
   attr_accessor :name
   attr_reader :songs
 
