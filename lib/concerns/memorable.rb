@@ -6,8 +6,8 @@ module Memorable
   module ClassMethods
     @@artists = []
 
-    def self.count
-      @@artists.count
+    def count
+      self.all.count
     end
 
     def reset_all
